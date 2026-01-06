@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: api-gateway
+
+gateway:
+  routes:
+    user: "https://jsonplaceholder.typicode.com/users"
+    catalog: "https://catalog.suaempresa.com"
+    billing: "https://billing.suaempresa.com/api"
+    legacy: "http://legacy.internal:8080"
